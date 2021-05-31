@@ -1,0 +1,40 @@
+{
+	"sheets": [
+		{
+			"name": "character",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "17",
+					"name": "props",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"id": "Char",
+					"props": {}
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "character@props",
+			"props": {
+				"hide": true,
+				"isProps": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": []
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}
