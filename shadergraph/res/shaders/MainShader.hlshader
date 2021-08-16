@@ -1,0 +1,94 @@
+{
+	"nodes": [
+		{
+			"x": 308,
+			"y": 235,
+			"id": 0,
+			"type": "hrt.shgraph.ShaderParam",
+			"properties": {
+				"parameterId": 0
+			}
+		},
+		{
+			"x": 884,
+			"y": 222,
+			"id": 1,
+			"type": "hrt.shgraph.ShaderOutput",
+			"properties": {
+				"variable": [
+					"pixelColor",
+					"TVec"
+				]
+			}
+		},
+		{
+			"x": 606,
+			"y": 206,
+			"id": 2,
+			"type": "hrt.shgraph.nodes.Multiply",
+			"properties": {
+				"prop_a": null,
+				"prop_b": null
+			}
+		},
+		{
+			"x": 307,
+			"y": 385,
+			"id": 3,
+			"type": "hrt.shgraph.ShaderParam",
+			"properties": {
+				"parameterId": 1
+			}
+		}
+	],
+	"edges": [
+		{
+			"idOutput": 2,
+			"nameOutput": "output",
+			"idInput": 1,
+			"nameInput": "input"
+		},
+		{
+			"idOutput": 3,
+			"nameOutput": "output",
+			"idInput": 2,
+			"nameInput": "b"
+		},
+		{
+			"idOutput": 0,
+			"nameOutput": "output",
+			"idInput": 2,
+			"nameInput": "a"
+		}
+	],
+	"parameters": [
+		{
+			"id": 0,
+			"name": "col_1",
+			"type": [
+				"TVec",
+				"4,VFloat"
+			],
+			"defaultValue": [
+				0.6588235294117647,
+				0.11764705882352941,
+				0.11764705882352941,
+				1
+			]
+		},
+		{
+			"id": 1,
+			"name": "col_2",
+			"type": [
+				"TVec",
+				"4,VFloat"
+			],
+			"defaultValue": [
+				0.2627450980392157,
+				0.5568627450980392,
+				0.7764705882352941,
+				1
+			]
+		}
+	]
+}

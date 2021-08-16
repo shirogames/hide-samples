@@ -1,0 +1,153 @@
+{
+	"sheets": [
+		{
+			"name": "character",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "14",
+					"name": "icon"
+				},
+				{
+					"typeStr": "11",
+					"name": "color"
+				},
+				{
+					"typeStr": "13",
+					"name": "path",
+					"opt": true
+				},
+				{
+					"typeStr": "17",
+					"name": "props",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"id": "Char",
+					"props": {
+						"test": 12
+					},
+					"group": 0,
+					"icon": {
+						"file": "ui/icons.png",
+						"size": 40,
+						"x": 0,
+						"y": 0
+					},
+					"path": "character/Merchant/Model.FBX",
+					"color": 8750469
+				},
+				{
+					"id": "Char2",
+					"props": {
+						"test": 12
+					},
+					"group": 0,
+					"icon": {
+						"file": "ui/icons.png",
+						"size": 40,
+						"x": 2,
+						"y": 1
+					},
+					"color": 4672255
+				},
+				{
+					"id": "Char3",
+					"props": {
+						"test": 12
+					},
+					"group": 1,
+					"icon": {
+						"file": "ui/icons.png",
+						"size": 40,
+						"x": 4,
+						"y": 1
+					},
+					"color": 13917696
+				},
+				{
+					"id": "Char4",
+					"props": {
+						"test": 12
+					},
+					"group": 1,
+					"icon": {
+						"file": "ui/icons.png",
+						"size": 40,
+						"x": 0,
+						"y": 0
+					},
+					"color": 8750469
+				},
+				{
+					"id": "Char5",
+					"props": {
+						"test": 12
+					},
+					"group": 1,
+					"icon": {
+						"file": "ui/icons.png",
+						"size": 40,
+						"x": 7,
+						"y": 1
+					},
+					"color": 5167104
+				}
+			],
+			"props": {
+				"separatorTitles": [
+					"Group1",
+					"Group2"
+				],
+				"hasGroup": true
+			},
+			"separatorIds": [
+				"Char",
+				"Char3"
+			]
+		},
+		{
+			"name": "sdfsdf",
+			"columns": [
+				{
+					"typeStr": "11",
+					"name": "color",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"color": 13893632
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "character@props",
+			"props": {
+				"hide": true,
+				"isProps": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "3",
+					"name": "test",
+					"opt": true,
+					"kind": null
+				}
+			]
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}
