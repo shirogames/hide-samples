@@ -2,7 +2,10 @@
 -lib hide
 -lib hlsdl
 -lib castle
+-lib hscript
 -hl main.hl
 -main Main
 -D windowSize=1880x1010
 --macro include("hrt.prefab")
+--macro include("hrt.shgraph")
+--dce full
