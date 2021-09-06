@@ -18,9 +18,9 @@
 			"rotationZ": -164.3,
 			"children": [
 				{
-					"type": "hlshader",
+					"type": "shgraph",
 					"name": "MainShader",
-					"source": "shaders/MainShader.hlshader",
+					"source": "shaders/MainShader.shgraph",
 					"props": {
 						"col_1": [
 							0.6588235294117647,
