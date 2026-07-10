@@ -1,2 +1,5 @@
-.tmp
-main.hl
+.vscode
+res/.tmp
+*.hl
+*.js
+*.js.map
