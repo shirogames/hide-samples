@@ -1,5 +1,32 @@
 {
 	"plugins": [
 		"../hide-plugin.js"
-	]
+	],
+	"fs.convert": {
+		"png": {
+			"convert": "dds",
+			"format": "BC7",
+			"priority": 0,
+			"mips": true
+		}
+	},
+		"fbx": {
+			"convert": "hmd",
+			"tangents": true,
+			"normals": true,
+			"maxUVs": 2,
+			"lowp": {
+				"position": "f16",
+				"uv": "f16",
+				"normal": "s8"
+			},
+			"lodsDecimation": [
+				0.5,
+				0.75,
+				0.96
+			],
+			"optimizeMesh": true,
+			"legacyScaleAxisConversion": true,
+			"legacySkinImport": true
+		}
 }
