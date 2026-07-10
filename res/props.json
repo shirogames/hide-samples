@@ -1,6 +1,6 @@
 {
 	"plugins": [
-		"../hide-plugin.js"
+		"../hideplugin.js"
 	],
 	"fs.convert": {
 		"png": {

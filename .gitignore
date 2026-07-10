@@ -1,5 +1,5 @@
 .vscode
 res/.tmp
 *.hl
-*.js
-*.js.map
+# *.js
+# *.js.map
