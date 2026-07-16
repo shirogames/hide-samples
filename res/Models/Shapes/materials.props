@@ -1,0 +1,11 @@
+{
+	"materials": {
+		"PBR": {
+			"default": {
+				"colorMask": 15,
+				"__ref": "MaterialLibraries/MLDungeon.prefab",
+				"name": "Variation2"
+			}
+		}
+	}
+}

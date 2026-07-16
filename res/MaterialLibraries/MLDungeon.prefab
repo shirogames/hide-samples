@@ -1,0 +1,92 @@
+{
+	"type": "prefab",
+	"children": [
+		{
+			"type": "material",
+			"name": "Base",
+			"props": {
+				"PBR": {
+					"mode": "PBR",
+					"blend": "None",
+					"shadows": true,
+					"culling": "Back",
+					"depthTest": "Less",
+					"colorMask": 15,
+					"enableStencil": false,
+					"drawOrder": null,
+					"stencilCompare": "Always"
+				}
+			},
+			"diffuseMap": "Models/DungeonKit/Textures/colormap.png",
+			"overrides": [
+				{
+					"pname": "PBR/drawOrder",
+					"value": "__toremove"
+				},
+				{
+					"pname": "PBR/culling",
+					"value": "Back"
+				}
+			]
+		},
+		{
+			"type": "material",
+			"name": "Variation1",
+			"props": {
+				"PBR": {
+					"mode": "PBR",
+					"blend": "None",
+					"shadows": true,
+					"culling": "Back",
+					"depthTest": "Less",
+					"colorMask": 15,
+					"enableStencil": false,
+					"drawOrder": null,
+					"stencilCompare": "Always",
+					"depthFailOp": "Decrement",
+					"stencilFailOp": "Zero",
+					"stencilPassOp": "Zero"
+				}
+			},
+			"diffuseMap": "Models/DungeonKit/Textures/variation-a.png",
+			"overrides": [
+				{
+					"pname": "PBR/drawOrder",
+					"value": "__toremove"
+				},
+				{
+					"pname": "PBR/culling",
+					"value": "Back"
+				}
+			]
+		},
+		{
+			"type": "material",
+			"name": "Variation2",
+			"props": {
+				"PBR": {
+					"mode": "PBR",
+					"blend": "None",
+					"shadows": true,
+					"culling": "Back",
+					"depthTest": "Less",
+					"colorMask": 15,
+					"enableStencil": false,
+					"drawOrder": null,
+					"stencilCompare": "Never"
+				}
+			},
+			"diffuseMap": "Models/DungeonKit/Textures/variation-b.png",
+			"overrides": [
+				{
+					"pname": "PBR/drawOrder",
+					"value": "__toremove"
+				},
+				{
+					"pname": "PBR/culling",
+					"value": "Back"
+				}
+			]
+		}
+	]
+}

@@ -2,30 +2,11 @@
 	"type": "prefab",
 	"children": [
 		{
-			"type": "demo",
-			"name": "demo",
-			"speed": 1,
-			"children": [
-				{
-					"type": "box",
-					"name": "box",
-					"x": 3,
-					"children": [
-						{
-							"type": "demo",
-							"name": "demo",
-							"speed": 1.5,
-							"children": [
-								{
-									"type": "box",
-									"name": "box",
-									"y": 3
-								}
-							]
-						}
-					]
-				}
-			]
+			"type": "model",
+			"name": "Cone",
+			"source": "Models/Shapes/Cone.fbx",
+			"x": 0.2468,
+			"y": 0.157
 		}
 	]
 }
