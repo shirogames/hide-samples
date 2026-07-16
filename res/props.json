@@ -29,7 +29,7 @@
 	"materialLibraries": [
 		{
 			"name": "MaterialLibrary",
-			"path": "Materials/MaterialLibrary.prefab"
+			"path": "MaterialLibraries/MLDungeon.prefab"
 		}
 	]
 }
