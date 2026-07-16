@@ -1,7 +1,4 @@
 {
-	"plugins": [
-		"../hideplugin.js"
-	],
 	"fs.convert": {
 		"png": {
 			"convert": "dds",
@@ -10,23 +7,29 @@
 			"mips": true
 		}
 	},
-		"fbx": {
-			"convert": "hmd",
-			"tangents": true,
-			"normals": true,
-			"maxUVs": 2,
-			"lowp": {
-				"position": "f16",
-				"uv": "f16",
-				"normal": "s8"
-			},
-			"lodsDecimation": [
-				0.5,
-				0.75,
-				0.96
-			],
-			"optimizeMesh": true,
-			"legacyScaleAxisConversion": true,
-			"legacySkinImport": true
+	"fbx": {
+		"convert": "hmd",
+		"tangents": true,
+		"normals": true,
+		"maxUVs": 2,
+		"lowp": {
+			"position": "f16",
+			"uv": "f16",
+			"normal": "s8"
+		},
+		"lodsDecimation": [
+			0.5,
+			0.75,
+			0.96
+		],
+		"optimizeMesh": true,
+		"legacyScaleAxisConversion": true,
+		"legacySkinImport": true
+	},
+	"materialLibraries": [
+		{
+			"name": "MaterialLibrary",
+			"path": "Materials/MaterialLibrary.prefab"
 		}
+	]
 }
