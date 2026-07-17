@@ -1,0 +1,113 @@
+{
+	"type": "prefab",
+	"children": [
+		{
+			"type": "object",
+			"name": "Object3D",
+			"children": [
+				{
+					"type": "model",
+					"name": "corridor",
+					"source": "Models/DungeonKit/corridor.fbx",
+					"y": 4
+				},
+				{
+					"type": "model",
+					"name": "corridor",
+					"source": "Models/DungeonKit/corridor.fbx",
+					"x": -4,
+					"rotationZ": 90
+				},
+				{
+					"type": "model",
+					"name": "corridor-corner",
+					"source": "Models/DungeonKit/corridor-corner.fbx"
+				},
+				{
+					"type": "model",
+					"name": "room-large",
+					"source": "Models/DungeonKit/room-large.fbx",
+					"y": 16
+				},
+				{
+					"type": "model",
+					"name": "corridor-junction",
+					"source": "Models/DungeonKit/corridor-junction.fbx",
+					"x": -8,
+					"rotationZ": 90
+				},
+				{
+					"type": "model",
+					"name": "corridor",
+					"source": "Models/DungeonKit/corridor.fbx",
+					"x": -8,
+					"y": -4
+				},
+				{
+					"type": "model",
+					"name": "corridor",
+					"source": "Models/DungeonKit/corridor.fbx",
+					"x": -12,
+					"rotationZ": 90
+				},
+				{
+					"type": "model",
+					"name": "corridor-end",
+					"source": "Models/DungeonKit/corridor-end.fbx",
+					"y": 28
+				},
+				{
+					"type": "model",
+					"name": "stairs",
+					"source": "Models/DungeonKit/stairs.fbx",
+					"x": -16,
+					"y": 16,
+					"rotationZ": 180
+				},
+				{
+					"type": "model",
+					"name": "stairs",
+					"source": "Models/DungeonKit/stairs.fbx",
+					"x": 16,
+					"y": 16
+				},
+				{
+					"type": "model",
+					"name": "room-corner",
+					"source": "Models/DungeonKit/room-corner.fbx",
+					"x": -8,
+					"y": -12
+				},
+				{
+					"type": "model",
+					"name": "corridor",
+					"source": "Models/DungeonKit/corridor.fbx",
+					"x": -16,
+					"y": -8
+				},
+				{
+					"type": "model",
+					"name": "corridor",
+					"source": "Models/DungeonKit/corridor.fbx",
+					"x": -16,
+					"y": -4
+				},
+				{
+					"type": "model",
+					"name": "corridor-corner",
+					"source": "Models/DungeonKit/corridor-corner.fbx",
+					"x": -16,
+					"y": -12,
+					"rotationZ": -90
+				},
+				{
+					"type": "model",
+					"name": "corridor-corner",
+					"source": "Models/DungeonKit/corridor-corner.fbx",
+					"x": -16,
+					"rotationZ": 180
+				}
+			]
+		}
+	]
+}

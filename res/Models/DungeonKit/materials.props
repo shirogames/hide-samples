@@ -1,0 +1,10 @@
+{
+	"materials": {
+		"PBR": {
+			"colormap": {
+				"__ref": "MaterialLibraries/MLDungeon.prefab",
+				"name": "Base"
+			}
+		}
+	}
+}

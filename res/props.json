@@ -31,5 +31,15 @@
 			"name": "MaterialLibrary",
 			"path": "MaterialLibraries/MLDungeon.prefab"
 		}
+	],
+	"scene.renderProps": [
+		{
+			"name": "Day",
+			"value": "Prefabs/Lighting/Day.prefab"
+		},
+		{
+			"name": "Night",
+			"value": "Prefabs/Lighting/Night.prefab"
+		}
 	]
 }

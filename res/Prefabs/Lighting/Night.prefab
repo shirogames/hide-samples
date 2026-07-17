@@ -1,0 +1,64 @@
+{
+	"type": "prefab",
+	"children": [
+		{
+			"type": "renderProps",
+			"name": "RenderProps",
+			"props": {
+				"PBR": {
+					"mode": "Pbr",
+					"sky": "CustomColor",
+					"tone": "Filmic",
+					"a": 1.55,
+					"b": 0.46,
+					"c": 0.96,
+					"d": 1.15,
+					"e": 0.5,
+					"emissive": 1,
+					"exposure": 0,
+					"occlusion": 1,
+					"skyColor": 5415
+				}
+			},
+			"children": [
+				{
+					"type": "light",
+					"name": "Light",
+					"scaleX": 100,
+					"scaleY": 100,
+					"scaleZ": 100,
+					"rotationY": 40,
+					"rotationZ": -10,
+					"kind": "Directional",
+					"color": 8762111,
+					"power": 1.66,
+					"isMainLight": true,
+					"range": 10,
+					"zNear": 0.02,
+					"maxDist": 700,
+					"cascade": true,
+					"params": [
+						{
+							"depthBias": 1,
+							"slopeBias": 3
+						}
+					],
+					"debugDisplay": false,
+					"shadows": {
+						"bias": 0.1,
+						"mode": "Dynamic",
+						"size": 4096,
+						"samplingMode": {
+							"bias": 0.1,
+							"kind": "PCF",
+							"scale": 3,
+							"quality": 1
+						},
+						"quality": 1,
+						"radius": 0
+					}
+				}
+			]
+		}
+	]
+}
