@@ -29,7 +29,7 @@
 	"materialLibraries": [
 		{
 			"name": "MaterialLibrary",
-			"path": "MaterialLibraries/MLDungeon.prefab"
+			"path": "MaterialLibraries/MLDungeon.matlib"
 		}
 	],
 	"scene.renderProps": [

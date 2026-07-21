@@ -3,7 +3,7 @@
 		"PBR": {
 			"default": {
 				"colorMask": 15,
-				"__ref": "MaterialLibraries/MLDungeon.prefab",
+				"__ref": "MaterialLibraries/MLDungeon.matlib",
 				"name": "Variation2"
 			}
 		}

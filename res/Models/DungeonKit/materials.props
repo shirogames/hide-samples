@@ -2,8 +2,8 @@
 	"materials": {
 		"PBR": {
 			"colormap": {
-				"__ref": "MaterialLibraries/MLDungeon.prefab",
-				"name": "Base"
+				"__ref": "MaterialLibraries/MLDungeon.matlib",
+				"name": "Variation1"
 			}
 		}
 	}

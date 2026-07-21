@@ -1,0 +1,56 @@
+{
+	"type": "matlib",
+	"children": [
+		{
+			"type": "material",
+			"name": "Base",
+			"props": {
+				"PBR": {
+					"mode": "PBR",
+					"blend": "None",
+					"shadows": true,
+					"culling": "Back",
+					"depthTest": "Less",
+					"colorMask": 15,
+					"enableStencil": false,
+					"drawOrder": null
+				}
+			},
+			"diffuseMap": "Models/DungeonKit/Textures/colormap.png"
+		},
+		{
+			"type": "material",
+			"name": "Variation1",
+			"props": {
+				"PBR": {
+					"mode": "PBR",
+					"blend": "None",
+					"shadows": true,
+					"culling": "Back",
+					"depthTest": "Less",
+					"colorMask": 15,
+					"enableStencil": false,
+					"drawOrder": null
+				}
+			},
+			"diffuseMap": "Models/DungeonKit/Textures/variation-a.png"
+		},
+		{
+			"type": "material",
+			"name": "Variation2",
+			"props": {
+				"PBR": {
+					"mode": "PBR",
+					"blend": "None",
+					"shadows": true,
+					"culling": "Back",
+					"depthTest": "Less",
+					"colorMask": 15,
+					"enableStencil": false,
+					"drawOrder": null
+				}
+			},
+			"diffuseMap": "Models/DungeonKit/Textures/variation-b.png"
+		}
+	]
+}
