@@ -9,10 +9,10 @@
 --macro include("shaders")
 --macro include("prefab")
 -D windowSize=1200x800
-# -D debug
+-D debug
 -D dce=no
 
 -lib hlsdl
--D hl-ver=1.15.0
+-D hl-ver=1.16.0
 -D hl-profile
 -hl main.hl

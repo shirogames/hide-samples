@@ -22,6 +22,15 @@
 			},
 			"children": [
 				{
+					"type": "environment",
+					"name": "environment",
+					"hdrMax": 1,
+					"rotation": 250,
+					"diffSize": 16,
+					"specSize": 64,
+					"sourceMapPath": "Textures/skybox.hdr"
+				},
+				{
 					"type": "light",
 					"name": "Light",
 					"scaleX": 100,

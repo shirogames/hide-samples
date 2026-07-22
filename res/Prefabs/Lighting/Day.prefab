@@ -22,6 +22,15 @@
 			},
 			"children": [
 				{
+					"type": "environment",
+					"name": "environment",
+					"hdrMax": 1,
+					"rotation": 250,
+					"diffSize": 16,
+					"specSize": 64,
+					"sourceMapPath": "Textures/skybox.hdr"
+				},
+				{
 					"type": "light",
 					"name": "Light",
 					"scaleX": 100,
@@ -30,7 +39,8 @@
 					"rotationY": 64.4800000000009,
 					"rotationZ": -10,
 					"kind": "Directional",
-					"power": 1.66000000000001,
+					"color": 16645629,
+					"power": 1.5,
 					"isMainLight": true,
 					"range": 10,
 					"zNear": 0.02,
