@@ -11,7 +11,7 @@ class Main extends hxd.App {
 		super.init();
 		new h3d.scene.CameraController.OrbitCameraController(20.0, s3d);
 		loadPrefab("Prefabs/Dungeon01.prefab");
-		setLighting(hxd.Res.Prefabs.Lighting.Day);
+		setLighting(hxd.Res.Lighting.Night);
 	}
 
 	override function update(dt:Float) {

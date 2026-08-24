@@ -35,11 +35,11 @@
 	"scene.renderProps": [
 		{
 			"name": "Day",
-			"value": "Prefabs/Lighting/Day.prefab"
+			"value": "Lighting/Day.rp"
 		},
 		{
 			"name": "Night",
-			"value": "Prefabs/Lighting/Night.prefab"
+			"value": "Lighting/Night.rp"
 		}
 	]
 }

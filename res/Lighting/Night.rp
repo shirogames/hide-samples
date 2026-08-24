@@ -1,5 +1,5 @@
 {
-	"type": "prefab",
+	"type": "rp",
 	"children": [
 		{
 			"type": "renderProps",
@@ -17,7 +17,7 @@
 					"emissive": 1,
 					"exposure": 0,
 					"occlusion": 1,
-					"skyColor": 1274821
+					"skyColor": 5415
 				}
 			},
 			"children": [
@@ -36,29 +36,22 @@
 					"scaleX": 100,
 					"scaleY": 100,
 					"scaleZ": 100,
-					"rotationY": 64.4800000000009,
+					"rotationY": 40,
 					"rotationZ": -10,
 					"kind": "Directional",
-					"color": 16645629,
-					"power": 1.5,
+					"color": 8762111,
+					"power": 1.66,
 					"isMainLight": true,
 					"range": 10,
 					"zNear": 0.02,
-					"maxDist": 200,
+					"maxDist": 700,
 					"cascade": true,
-					"cascadeNbr": 2,
-					"firstCascadeSize": 20,
 					"params": [
 						{
-							"depthBias": 0.01,
-							"slopeBias": 30
-						},
-						{
-							"depthBias": 0,
-							"slopeBias": 2
+							"depthBias": 1,
+							"slopeBias": 3
 						}
 					],
-					"highPrecision": true,
 					"debugDisplay": false,
 					"shadows": {
 						"bias": 0.1,
@@ -67,8 +60,8 @@
 						"samplingMode": {
 							"bias": 0.1,
 							"kind": "PCF",
-							"quality": 2,
-							"scale": 1
+							"scale": 3,
+							"quality": 1
 						},
 						"quality": 1,
 						"radius": 0
